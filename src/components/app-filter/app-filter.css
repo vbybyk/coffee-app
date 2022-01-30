@@ -1,0 +1,28 @@
+.filter-title {
+  margin-right: 30px;
+}
+.filter-button {
+  min-width: 75px;
+  height: 30px;
+  margin-right: 5px;
+  border: none;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  font-family: "Merienda One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
+  cursor: pointer;
+}
+.filter-button:hover {
+  background: #6d6b6b;
+  color: #FFFFFF;
+  transition: all 0.3s ease;
+}
+.filter-button.active {
+  background: #414446;
+  color: #FFFFFF;
+}

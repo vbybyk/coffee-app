@@ -1,0 +1,13 @@
+.app {
+  margin: 0;
+  
+}
+
+.search-filter-wrapper {
+  display: flex;
+  margin: auto;
+  margin-bottom: 60px;
+  min-width: 600px;
+  justify-content: center;
+  gap: 0 83px;
+}
