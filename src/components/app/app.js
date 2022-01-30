@@ -53,6 +53,9 @@ class App extends Component {
       case 'Columbia':
         console.log(`case ${filter}`)
         return array.filter(elem => elem.country === 'Columbia')
+      case '':
+        console.log(`now filter is a string ${filter}`)
+        return array
       default:
         return array
     }
