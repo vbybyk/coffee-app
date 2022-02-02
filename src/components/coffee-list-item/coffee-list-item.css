@@ -15,6 +15,10 @@
   line-height: 20px;
   text-align: center;
 }
+.coffee-list-item-container:hover{
+  background-color:rgb(202, 191, 170);
+  transition: all 0.3s ease;
+}
 .coffee-list-item-img {
   max-width: 100%;
   

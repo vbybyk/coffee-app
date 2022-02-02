@@ -1,0 +1,18 @@
+.modal-container.visible {
+  display: block;
+}
+.modal-container {
+  display: none;
+}
+.modal-overlay{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(56, 53, 52, 0.39);
+  visibility: visible;
+  opacity: 100;
+  transition: opacity 0.3s;
+}
